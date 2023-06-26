@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Oswald:wght@500&display=swap');
+
+html,body{
+    height: 100%;
+    width:100%;
+    font-family: 'Caprasimo', 'cursive';
+    font-family: 'Oswald', sans-serif;
+}
+
+.button{
+    width:60px;
+    padding:20px;
+    margin:0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor:pointer;
+    background-color: rgb(145, 145, 248);
+}
+
+.button:hover{
+    background-color: rgb(33, 247, 104);
+    /* font-family:cursive; */
+    font-weight: bolder;
+}
+
+.row{
+    margin:7px 0;
+}
+
+.row input{
+    background-color:rgb(164, 235, 235);
+    font-size: 19px;
+    margin: 1;
+    padding: 10px 14px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+#title{
+    color: rgb(129, 1, 248);
+}
+#title:hover{
+    color: rgb(76, 12, 136);
+    cursor:pointer;
+}
+.button .sign{
+    background-color: burlywood;
+}
